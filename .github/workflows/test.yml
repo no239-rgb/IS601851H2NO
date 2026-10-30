@@ -76,7 +76,7 @@ jobs:
          push: true
          tags: |
            nosaomoregie/601_h2no:latest
-           nosaomoregie/601_h2no:{{ github.sha }}
+           nosaomoregie/601_h2no:${{ github.sha }}
          platforms: linux/amd64,linux/arm64
          cache-from: type=registry,ref=nosaomoregie/601_h2no:cache
          cache-to: type=inline,mode=max
