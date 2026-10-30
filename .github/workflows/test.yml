@@ -75,8 +75,8 @@ jobs:
        with:
          push: true
          tags: |
-           kaw393939/601_module8:latest
-           kaw393939/601_module8:${{ github.sha }}
+           nosaomoregie/601_h2no:latest
+           nosaomoregie/601_h2no:{{ github.sha }}
          platforms: linux/amd64,linux/arm64
-         cache-from: type=registry,ref=kaw393939/601_module8:cache
+         cache-from: type=registry,ref=nosaomoregie/601_h2no:cache
          cache-to: type=inline,mode=max
