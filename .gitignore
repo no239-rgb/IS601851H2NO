@@ -1,7 +1,19 @@
 venv/
+.venv/
 __pycache__/
 *.pyc
 .DS_Store
 .coverage
 .pytest_cache
 htmlcov
+package-lock.json
+package.json
+playwright.config.js
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
